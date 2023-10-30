@@ -22,7 +22,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>B</string>
+          <string>rs2</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -40,7 +40,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>A</string>
+          <string>rs1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -117,12 +117,12 @@
           <string>S</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>dec</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>32</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
       <pos x="1020" y="420"/>

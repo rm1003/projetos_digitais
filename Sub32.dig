@@ -17,45 +17,33 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
           <string>Label</string>
-          <string>B</string>
+          <string>rs2</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="480" y="220"/>
+      <pos x="320" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
           <string>Label</string>
-          <string>A</string>
+          <string>rs1</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="400" y="220"/>
+      <pos x="320" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
         <entry>
           <string>Input Splitting</string>
           <string>32</string>
@@ -65,15 +53,11 @@
           <string>16,16</string>
         </entry>
       </elementAttributes>
-      <pos x="480" y="260"/>
+      <pos x="360" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
         <entry>
           <string>Input Splitting</string>
           <string>32</string>
@@ -83,21 +67,17 @@
           <string>16,16</string>
         </entry>
       </elementAttributes>
-      <pos x="400" y="260"/>
+      <pos x="360" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
         <entry>
           <string>Label</string>
           <string>Cin</string>
         </entry>
       </elementAttributes>
-      <pos x="560" y="220"/>
+      <pos x="320" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -121,12 +101,12 @@
           <string>S</string>
         </entry>
         <entry>
-          <string>intFormat</string>
-          <intFormat>decSigned</intFormat>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>32</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
         </entry>
       </elementAttributes>
       <pos x="880" y="400"/>
@@ -144,16 +124,20 @@
   </visualElements>
   <wires>
     <wire>
-      <p1 x="400" y="320"/>
-      <p2 x="640" y="320"/>
-    </wire>
-    <wire>
       <p1 x="700" y="320"/>
       <p2 x="720" y="320"/>
     </wire>
     <wire>
+      <p1 x="440" y="320"/>
+      <p2 x="640" y="320"/>
+    </wire>
+    <wire>
       <p1 x="620" y="480"/>
       <p2 x="640" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="480"/>
+      <p2 x="440" y="480"/>
     </wire>
     <wire>
       <p1 x="800" y="400"/>
@@ -164,7 +148,7 @@
       <p2 x="880" y="400"/>
     </wire>
     <wire>
-      <p1 x="480" y="340"/>
+      <p1 x="380" y="340"/>
       <p2 x="640" y="340"/>
     </wire>
     <wire>
@@ -180,19 +164,31 @@
       <p2 x="820" y="420"/>
     </wire>
     <wire>
-      <p1 x="380" y="440"/>
-      <p2 x="640" y="440"/>
+      <p1 x="320" y="260"/>
+      <p2 x="360" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="260"/>
+      <p2 x="440" y="260"/>
     </wire>
     <wire>
       <p1 x="700" y="440"/>
       <p2 x="880" y="440"/>
     </wire>
     <wire>
-      <p1 x="560" y="360"/>
+      <p1 x="420" y="440"/>
+      <p2 x="640" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="280"/>
+      <p2 x="420" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="360"/>
       <p2 x="640" y="360"/>
     </wire>
     <wire>
-      <p1 x="460" y="460"/>
+      <p1 x="380" y="460"/>
       <p2 x="640" y="460"/>
     </wire>
     <wire>
@@ -200,24 +196,8 @@
       <p2 x="800" y="460"/>
     </wire>
     <wire>
-      <p1 x="480" y="220"/>
-      <p2 x="480" y="260"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="280"/>
-      <p2 x="480" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="220"/>
-      <p2 x="400" y="260"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="280"/>
-      <p2 x="400" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="560" y="220"/>
-      <p2 x="560" y="360"/>
+      <p1 x="320" y="380"/>
+      <p2 x="360" y="380"/>
     </wire>
     <wire>
       <p1 x="720" y="320"/>
@@ -232,12 +212,24 @@
       <p2 x="800" y="460"/>
     </wire>
     <wire>
-      <p1 x="460" y="280"/>
-      <p2 x="460" y="460"/>
+      <p1 x="420" y="280"/>
+      <p2 x="420" y="440"/>
     </wire>
     <wire>
-      <p1 x="380" y="280"/>
-      <p2 x="380" y="440"/>
+      <p1 x="440" y="260"/>
+      <p2 x="440" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="360"/>
+      <p2 x="440" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="340"/>
+      <p2 x="380" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="400"/>
+      <p2 x="380" y="460"/>
     </wire>
     <wire>
       <p1 x="620" y="420"/>
