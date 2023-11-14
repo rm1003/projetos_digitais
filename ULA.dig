@@ -95,7 +95,7 @@
         </entry>
         <entry>
           <string>intFormat</string>
-          <intFormat>decSigned</intFormat>
+          <intFormat>bin</intFormat>
         </entry>
       </elementAttributes>
       <pos x="1060" y="400"/>
