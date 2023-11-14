@@ -34,11 +34,11 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>3100b3,0,0,0,3104b3,0,0,0,1</data>
+          <data>4*0,1</data>
         </entry>
         <entry>
           <string>intFormat</string>
-          <intFormat>bin</intFormat>
+          <intFormat>hex</intFormat>
         </entry>
       </elementAttributes>
       <pos x="500" y="440"/>
