@@ -37,7 +37,7 @@
           <data>1400413,0,0,0,100293,0,0,0,100313,0,0,0,8000ef,0,0,0,1,0,0,0,200493
 ,0,0,0,552023,0,0,0,652223,0,0,0,450513,0,0,0,6283b3,0,0,0,752223
 ,0,0,0,450513,0,0,0,30293,0,0,0,38313,0,0,0,148493,0,0,0,fe84c4e3
-,0,0,0,8067</data>
+,0,0,0,8967</data>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -82,12 +82,16 @@
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>CLK</string>
         </entry>
         <entry>
           <string>Frequency</string>
-          <int>5</int>
+          <int>20</int>
         </entry>
       </elementAttributes>
       <pos x="220" y="560"/>

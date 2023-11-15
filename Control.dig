@@ -157,7 +157,7 @@
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="860" y="1040"/>
+      <pos x="760" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
@@ -168,11 +168,11 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>12</int>
+          <int>13</int>
         </entry>
         <entry>
           <string>Data</string>
-          <data>0,800,0,490,15*0,484,15*0,1c0,15*0,404,47*0,20a,0,0,0,4af,7*0,721</data>
+          <data>0,800,0,490,15*0,484,15*0,1c0,15*0,1404,47*0,20a,0,0,0,4af,7*0,721</data>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -191,11 +191,11 @@
       <elementAttributes>
         <entry>
           <string>Input Splitting</string>
-          <string>12</string>
+          <string>13</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>1,2,1,2,1,1,2,1,1</string>
+          <string>1,2,1,2,1,1,2,1,1,1</string>
         </entry>
       </elementAttributes>
       <pos x="880" y="620"/>
@@ -493,6 +493,54 @@
       </elementAttributes>
       <pos x="1180" y="880"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>Funct7Control</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1180" y="920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="1020"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>Funct7Control</string>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="1100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="1020"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -640,6 +688,10 @@
       <p2 x="860" y="920"/>
     </wire>
     <wire>
+      <p1 x="1060" y="920"/>
+      <p2 x="1180" y="920"/>
+    </wire>
+    <wire>
       <p1 x="940" y="280"/>
       <p2 x="1100" y="280"/>
     </wire>
@@ -676,12 +728,20 @@
       <p2 x="1180" y="800"/>
     </wire>
     <wire>
+      <p1 x="900" y="800"/>
+      <p2 x="1060" y="800"/>
+    </wire>
+    <wire>
       <p1 x="1060" y="100"/>
       <p2 x="1100" y="100"/>
     </wire>
     <wire>
       <p1 x="900" y="740"/>
       <p2 x="1120" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="1060"/>
+      <p2 x="820" y="1060"/>
     </wire>
     <wire>
       <p1 x="1140" y="1000"/>
@@ -796,6 +856,10 @@
       <p2 x="980" y="1020"/>
     </wire>
     <wire>
+      <p1 x="760" y="1020"/>
+      <p2 x="820" y="1020"/>
+    </wire>
+    <wire>
       <p1 x="1080" y="380"/>
       <p2 x="1100" y="380"/>
     </wire>
@@ -828,6 +892,10 @@
       <p2 x="1060" y="620"/>
     </wire>
     <wire>
+      <p1 x="1060" y="800"/>
+      <p2 x="1060" y="920"/>
+    </wire>
+    <wire>
       <p1 x="1380" y="160"/>
       <p2 x="1380" y="540"/>
     </wire>
@@ -850,6 +918,10 @@
     <wire>
       <p1 x="840" y="920"/>
       <p2 x="840" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="1060"/>
+      <p2 x="840" y="1100"/>
     </wire>
     <wire>
       <p1 x="1100" y="760"/>

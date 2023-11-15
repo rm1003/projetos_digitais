@@ -73,6 +73,16 @@
       </elementAttributes>
       <pos x="300" y="320"/>
     </visualElement>
+    <visualElement>
+      <elementName>Neg</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="320"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -85,6 +95,10 @@
     </wire>
     <wire>
       <p1 x="360" y="320"/>
+      <p2 x="380" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="320"/>
       <p2 x="500" y="320"/>
     </wire>
     <wire>
