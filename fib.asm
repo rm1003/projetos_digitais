@@ -3,8 +3,7 @@
 	addi s0, zero, 20 # Registrador global recebe tamanho do vetor
 	addi t0, zero, 1 # Registrador temporario recebe 1 elemento
 	addi t1, zero, 1 # Registrafor temporario recebe 2 elemento
-	jal fib # Pula para funcao fib
-	ret
+	jal ra, fib # Pula para funcao fib
 	
 fib:
 	addi s1, zero, 2 # Registrador global recebe o indice 2 do laco
@@ -13,13 +12,10 @@ fib:
 	addi a0, a0, 4 # O endereco agora esta no v[2]
 
 fib_loop:
-	blt s0, s1, end 
 	add t2, t0, t1 # Faz uma adicao do v[i - 1] com o v[i - 2] elemento
 	sw t2, 4(a0) # Guarda o valor da variavel t2 na posicao v[a0] + 4
 	addi a0, a0, 4 # O endereco novo de a0 é v[a0] + 4
 	addi t0, t1, 0 # Guarda o elemento v[i - 2] em v[i - 1]
 	addi t1, t2, 0 # Guarda o elemento t2 em v[i - 2]
 	addi s1, s1, 1 # Faz i++
-	jal fib_loop # Volta para fib_loop se indice e diferente do tamanho
-end:
-	ret
+	blt s1, s0, fib_loop # Volta para fib_loop se indice e menor que tamanho 20
